@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color: whitesmoke;
+    max-height: 683.438px;
+
+}
+
+
+.container{
+ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+
+button{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 25px;
+}
+
+h1{
+    margin-bottom: 25px;
+}
+
+.buttons{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    max-height: 500px;
+    background-color: white;
+       
+}
+
+/*
+.square{
+    
+   border: solid black 2px; 
+
+}
+
+*/
